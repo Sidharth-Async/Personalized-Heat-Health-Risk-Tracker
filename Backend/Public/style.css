@@ -1,0 +1,177 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+  }
+  
+  /* Container */
+  .container {
+    width: 100%;
+    max-width: 480px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .logo-circle {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 12px;
+    background-color: #ff8a00;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-title {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 8px;
+  }
+  
+  .tagline {
+    font-size: 16px;
+    color: #e0e0e0;
+  }
+  
+  /* Card Styling */
+  .card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #000;
+    font-size: 14px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  button.submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #a8eb12;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #92d60c;
+  }
+  
+  /* Responsive */
+  @media (max-width: 500px) {
+    .card {
+      padding: 20px;
+    }
+  
+    .main-title {
+      font-size: 22px;
+    }
+  }
+
+  .risk-box {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.risk-box {
+  margin-top: 20px;
+  padding: 16px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  .submit-btn[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

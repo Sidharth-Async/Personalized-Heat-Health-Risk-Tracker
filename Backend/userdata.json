@@ -1,0 +1,116 @@
+[
+  {
+    "age": 22,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 33,
+    "humidity": 53,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:39:44.858Z"
+  },
+  {
+    "age": 22,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 33,
+    "humidity": 53,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:45:43.788Z"
+  },
+  {
+    "age": 22,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 33,
+    "humidity": 53,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:46:57.088Z"
+  },
+  {
+    "age": 22,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 34.2,
+    "humidity": 50,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:52:17.557Z"
+  },
+  {
+    "age": 22,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 34.2,
+    "humidity": 50,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:53:51.877Z"
+  },
+  {
+    "age": 33,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 34.2,
+    "humidity": 50,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:54:43.317Z"
+  },
+  {
+    "age": 33,
+    "conditions": [],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 34.2,
+    "humidity": 50,
+    "risk": "Low",
+    "points": 2.5,
+    "timestamp": "2025-05-23T06:58:41.658Z"
+  },
+  {
+    "age": 22,
+    "conditions": [
+      "asthma"
+    ],
+    "location": "Gurgaon",
+    "coordinates": {
+      "lat": 28.4950528,
+      "lon": 77.0768896
+    },
+    "temperature": 34.2,
+    "humidity": 50,
+    "risk": "Moderate",
+    "points": 3.5,
+    "timestamp": "2025-05-23T07:01:00.032Z"
+  }
+]

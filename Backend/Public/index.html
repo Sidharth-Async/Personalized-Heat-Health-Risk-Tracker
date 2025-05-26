@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heat Health Risk Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .risk-result {
+      margin-top: 20px;
+      padding: 1rem;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      text-align: center;
+      background: linear-gradient(135deg, #56ccf2, #2f80ed);
+      color: white;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 0.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Hero / Header Section -->
+    <header class="hero">
+      <div class="logo-circle">🔥</div>
+      <h1 class="main-title">Heat Health Risk Tracker</h1>
+      <p class="tagline">Protect yourself during heatwaves. Stay informed, stay safe.</p>
+    </header>
+
+    <!-- Card Form Section -->
+    <div class="card">
+      <h2 class="card-title">Get Your Personalized Risk Level</h2>
+      <form id="risk-form">
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" placeholder="Enter your age" required />
+        </div>
+
+        <div class="form-group">
+          <label>Pre-existing Conditions</label>
+          <div class="checkbox-group">
+            <label><input type="checkbox" name="conditions" value="asthma" /> Asthma</label>
+            <label><input type="checkbox" name="conditions" value="diabetes" /> Diabetes</label>
+            <label><input type="checkbox" name="conditions" value="heart" /> Heart Condition</label>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" name="location" placeholder="Enter your city or region" required />
+        </div>
+
+        <button type="submit" class="submit-btn">Check Risk</button>
+      </form>
+      <div id="risk-result" class="risk-result" style="display:none;"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
